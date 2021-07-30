@@ -1,0 +1,9 @@
+/* 全局样式表 */
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 引入字体图标 */
+@import url(//at.alicdn.com/t/font_2712359_7jm9pl5ox4.css);
