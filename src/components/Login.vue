@@ -122,7 +122,7 @@ export default {
         if (res.meta.status != 200) return this.$message.error('登陆失败')
         this.$message.success('登陆成功')
         // 存储token
-        setToken()
+        setToken(res.data.token)
         // 编程式导航，跳转/home
         this.$router.push('/home')
       })
