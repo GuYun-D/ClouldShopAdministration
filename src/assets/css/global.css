@@ -7,3 +7,20 @@ html, body, #app {
 
 /* 引入字体图标 */
 @import url(//at.alicdn.com/t/font_2712359_7jm9pl5ox4.css);
+
+/* 面包屑导航 */
+.el-breadcrumb{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+/* 重置el-card阴影 */
+.el-card{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .15) !important;
+}
+
+/* 表格添加上边距 */
+.el-table{
+  margin: 20px 0;
+  font-size: 12px;
+}
