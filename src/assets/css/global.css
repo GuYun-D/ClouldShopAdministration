@@ -3,6 +3,7 @@ html, body, #app {
   height: 100%;
   margin: 0;
   padding: 0;
+  min-width: 1256px;
 }
 
 /* 引入字体图标 */
