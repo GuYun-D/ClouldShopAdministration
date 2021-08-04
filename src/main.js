@@ -9,6 +9,9 @@ import './assets/css/global.css'
 // 配置elementui
 import './plugins/element-ui'
 
+// 配置vue-table-with-tree-grid
+import './plugins/vueTableWidthTreeGrid'
+
 // 引入字体图标
 import './assets/fonts/iconfont.css'
 
