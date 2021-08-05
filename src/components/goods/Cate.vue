@@ -51,7 +51,7 @@
         </template>
 
         <!-- 操作列 -->
-        <template slot="opt" slot-scope="{ row }">
+        <template slot="opt" slot-scope="{}">
           <el-button type="primary" size="mini" icon="el-icon-edit"></el-button>
           <el-button
             type="danger"

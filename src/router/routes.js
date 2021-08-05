@@ -5,6 +5,7 @@ import User from "../components/user/user.vue"
 import Rights from "../components/power/Rights.vue"
 import Roles from "../components/power/Roles.vue"
 import Cate from '../components/goods/Cate.vue'
+import Params from '../components/goods/params.vue'
 
 export default
   [
@@ -39,6 +40,9 @@ export default
         }, {
           path: '/categories',
           component: Cate
+        }, {
+          path: '/params',
+          component: Params
         }
       ]
     }
