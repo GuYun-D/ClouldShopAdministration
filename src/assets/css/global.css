@@ -25,3 +25,12 @@ html, body, #app {
   margin: 20px 0;
   font-size: 12px;
 }
+
+.el-steps{
+  margin: 15px 0;
+}
+
+.ql-editor{
+  min-height: 300px;
+  padding-bottom: 20px;
+}
