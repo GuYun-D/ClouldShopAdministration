@@ -9,6 +9,7 @@ import Params from '../components/goods/params.vue'
 import List from '../components/goods/List.vue'
 import Add from '../components/goods/add.vue'
 import Order from '../components/order/order.vue'
+import Reports from '../components/report/report.vue'
 
 
 export default
@@ -56,6 +57,9 @@ export default
         }, {
           path: '/orders',
           component: Order
+        }, {
+          path: '/reports',
+          component: Reports
         }
       ]
     }
